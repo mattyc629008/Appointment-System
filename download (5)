@@ -1,0 +1,11 @@
+# Block PHP execution in uploads — security requirement
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Only allow image files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|jfif)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>

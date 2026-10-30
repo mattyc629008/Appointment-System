@@ -1,0 +1,5 @@
+# Allen and Rej Bridal — InfinityFree htdocs
+# Keep minimal — InfinityFree manages server-level security
+
+Options -Indexes
+AddDefaultCharset UTF-8
